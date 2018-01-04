@@ -1,0 +1,22 @@
+footer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 100px;
+  justify-items: center;
+
+  .social {
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    li {
+      display: inline-block;
+      list-item-style: none;
+      padding-right: 20px;
+    }
+  }
+
+  .copyright {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+}
