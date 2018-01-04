@@ -6,7 +6,7 @@ xml.urlset(
 ) do
   xml.url do
     xml.loc config[:site_url]
-    xml.lastmod Date.current.strftime("%Y-%m-%d")
+    xml.lastmod Date.today.strftime("%Y-%m-%d")
     xml.changefreq "weekly"
     xml.priority 1.0
   end
