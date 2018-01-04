@@ -1,12 +1,13 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-set :site_description, "A tool for small homeowners associations to get organized."
+set :site_description, "A tool for small homeowners associations to get organized. COMING SOON!"
 set :site_name, "HOA Done"
 set :site_email, "hello@hoadone.com"
 set :site_url, "https://www.hoadone.com"
 set :cdn_url, "https://s3.amazonaws.com/hoadone-website-assets"
 set :site_copyright, "© 2017-2018 HOA Done. All Rights Reserved."
+set :ga_id, "UA-111937443-1"
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
