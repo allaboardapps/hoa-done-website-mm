@@ -10,7 +10,9 @@
 
       gtag('config', '<%= config[:ga_id] %>');
     </script>
-    <title><%= current_page.data.title ? "#{current_page.data.title} | #{config[:site_name]}" : config[:site_name] %></title>
+    <title>
+      <%= current_page.data.title == "Home" ? "#{config[:site_name]} | Home" : "#{current_page.data.title} | #{config[:site_name]}" %>
+    </title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="<%= config[:site_description] %>">
