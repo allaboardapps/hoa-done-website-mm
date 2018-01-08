@@ -3,6 +3,7 @@
 
 set :site_description, "A tool for small homeowners associations to get organized. COMING SOON!"
 set :site_name, "HOA Done"
+set :site_acronym, "HOA"
 set :site_email, "hello@hoadone.com"
 set :site_url, "https://www.hoadone.com"
 set :cdn_url, "https://s3.amazonaws.com/hoadone-website-assets"
