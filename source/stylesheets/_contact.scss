@@ -30,8 +30,21 @@
     }
 
     button {
+      -moz-border-radius: 28;
+      -webkit-border-radius: 28;
+      background-image: -moz-linear-gradient(top, $red, $red);
+      background-image: -ms-linear-gradient(top, $red, $red);
+      background-image: -o-linear-gradient(top, $red, $red);
+      background-image: -webkit-linear-gradient(top, $red, $red);
+      background-image: linear-gradient(to bottom, $red, $red);
+      background: $red;
+      border-radius: 28px;
+      color: $white;
       display: block;
-      width: 100px;
+      font-family: Arial;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
     }
   }
 
